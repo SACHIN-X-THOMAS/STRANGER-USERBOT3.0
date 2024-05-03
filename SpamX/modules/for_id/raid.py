@@ -72,15 +72,15 @@ async def rraid(SpamX: Client, e: Message):
       if DATABASE_URL:
           check = raid_db.check(user.id)
           if check:
-             await e.reply_text("User already in Raid list!")
+             await e.reply_text("😄𝙸𝚂𝙺𝙸 𝙼𝙰𝙰 𝚃𝙾 𝙿𝙴𝙷𝙻𝙴 𝙱𝙷𝙸 𝙲𝙷𝙾𝙳𝙸 𝙷𝙰𝙸👻")
              return
           raid_db.add_user(user.id)
       else:
           if int(user.id) in RUSERs:
-             await e.reply_text("User already in Raid list!")
+             await e.reply_text("😄𝙸𝚂𝙺𝙸 𝙼𝙰𝙰 𝚃𝙾 𝙿𝙴𝙷𝙻𝙴 𝙱𝙷𝙸 𝙲𝙷𝙾𝙳𝙸 𝙷𝙰𝙸👻")
              return
           RUSERs.append(user.id)
-      await e.reply_text(f"Reply Raid Activated On User {user.mention}")
+      await e.reply_text(f"🤠𝙰𝙱 𝙱𝙾𝙻 𝙽𝙰 𝙼𝙰𝙳𝙰𝚁𝙲𝙷𝙾𝙳 😑 {user.mention}")
  
       if LOGS_CHANNEL:
          try:
@@ -107,7 +107,7 @@ async def draid(SpamX: Client, e: Message):
            await e.reply_text("User not in Raid list!")
            return
          RUSERs.remove(user.id)
-      await e.reply_text(f"Reply Raid Activated Successfully On User {user.mention}")
+      await e.reply_text(f"😛𝙲𝙷𝙰𝙻𝙰 𝙹𝙰 𝙱𝚂𝙳𝙺𝙴 𝚃𝚄𝙹𝙷𝙴 𝙼𝙰𝙰𝙵 𝙺𝙸𝚈𝙰🤣 {user.mention}")
       
       if LOGS_CHANNEL:
          try:
