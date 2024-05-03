@@ -25,7 +25,7 @@ class Alive:
       **[👻4sᴛ 𝐎ғғɪᴄɪᴀʟ💘](https://t.me/I_M_FIGHTER)
 ◈ •━━━━━★✦♡✦★━━━━━• ◈ 
 
-➪ **👑4sᴛ 𝐅ʏᴛᴇʀ💌:** [𝐓ᴇʀᴀ 𝐁ᴀᴀᴘ #_4sᴛ](https://t.me/ll4st_MIND_GAMERII)
+➪ **👑4sᴛ 𝐅ʏᴛᴇʀ💌:** [𝐓ᴇʀᴀ 𝐁ᴀᴀᴘ #_4sᴛ](https://t.me/ll_4st_MIND_GAMER_II)
 
 ➪ **❤𝐏ʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ👀:**`{platform.python_version()}`
 
