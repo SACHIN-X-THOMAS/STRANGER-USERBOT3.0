@@ -1,4 +1,4 @@
-"""𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗦𝗣𝗔𝗠 """
+"""💞 #_4ST_OFFICIAL 💌 """
 import os
 import sys
 import re
@@ -11,11 +11,11 @@ if os.path.exists(".env"):
     load_dotenv(".env")
 
 # -------------CONFIGS--------------------
-API_ID = int(os.getenv("API_ID", "29308061"))
+API_ID = int(os.getenv("API_ID", "24606545"))
 if not API_ID:
    print("SpamX [INFO]: You didn't fill API_ID var!")
    sys.exit()
-API_HASH = os.getenv("API_HASH", "462de3dfc98fd938ef9c6ee31a72d099")
+API_HASH = os.getenv("API_HASH", "0c5131b6c80f7f4be6b57d1c03dcaf5c")
 if not API_HASH:
    print("SpamX [INFO]: You didn't fill API_HASH var!")
    sys.exit()
